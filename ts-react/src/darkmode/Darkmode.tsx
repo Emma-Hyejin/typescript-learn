@@ -8,6 +8,8 @@ const Darkmode = () => {
 
     const handleToggle = () => {
         setDarked(!isDark);
+        console.log(isDark);
+        /*true:라이트 , false:다크 */
     }
     return(
         <div className="darkmode">
@@ -23,12 +25,12 @@ const Darkmode = () => {
                     <ul>
                         <li className="article">
                             <div className="article-title">홀리 몰리</div>
-                            <img src="/public/cat.jpg" alt="고양이 사진"/>
+                            <img src="/src/cat.jpg" alt="고양이 사진"/>
                             <div className="article-content">배가 고픕니다.</div>
                         </li>
                         <li className="article">
                             <div className="article-title">과카 몰리</div>
-                            <img src="/public/cat.jpg" alt="고양이 사진"/>
+                            <img src="/src/cat.jpg" alt="고양이 사진"/>
                             <div className="article-content">돼지 조감귤</div>
                         </li>
                     </ul>
