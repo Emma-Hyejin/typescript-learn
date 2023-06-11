@@ -41,10 +41,15 @@
     width: 100%;
     text-align:center;
     padding: 20px 0;
+    background-color: #999899;
 }
 
 .sidebar-link:hover{
-    background-color: #999899;
+    background-color: #eee;
+}
+
+.sidebar-link:focus-within{
+    background-color: #eee;
 }
 
 

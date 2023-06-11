@@ -4,8 +4,11 @@ import Sidebar from './components/Sidebar';
 import Darkmode from './darkmode/Darkmode';
 import Home from './Home';
 
+
 const App: React.FC = () => {
+
   return (
+
       <div className="App">
         <Sidebar/>
         <div className="App-section">

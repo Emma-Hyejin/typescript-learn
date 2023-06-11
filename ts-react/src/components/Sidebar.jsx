@@ -6,8 +6,8 @@ import '../App.css';
 const Sidebar = () => {
     return(
         <div className="sidebar">
-            <Link className="sidebar-link" to='/' element={<Home/>}>Home</Link>
-            <Link className="sidebar-link" to='/darkmode' element={<Darkmode/>}>Dark Mode</Link>
+            <Link className="sidebar-link"  tabindex="0" to='/' element={<Home/>}>Home</Link>
+            <Link className="sidebar-link"  tabindex="0" to='/darkmode' element={<Darkmode/>}>Dark Mode</Link>
         </div>
     )
 }
