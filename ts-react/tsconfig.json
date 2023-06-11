@@ -13,7 +13,8 @@
         "noImplicitAny": true,
         "strictNullChecks": true,
         "allowJs": true,
-        "types": ["react/next", "react-dom/next"]
+        "types": ["react/next", "react-dom/next", "styled-components"],
+        "allowSyntheticDefaultImports": true,
     },
     "include": ["./src"],
     "exclude": ["node_modules", "build"]
